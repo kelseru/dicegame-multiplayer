@@ -73,9 +73,7 @@ Here are some screenshots/GIFs of the game in action. You can also view a live d
 
 <p align="center">
   <h3 align="left">Game Progression</h3>
-  <img width="419" alt="Screenshot 2020-08-04 at 10 15 19" src="https://user-images.githubusercontent.com/64029300/89276437-9043d300-d63b-11ea-9abc-46a42726d988.png">
-  <img width="423" alt="Screenshot 2020-08-04 at 10 15 34" src="https://user-images.githubusercontent.com/64029300/89276509-a5206680-d63b-11ea-8eb5-4138eaba5056.png">
-  <img width="412" alt="Screenshot 2020-08-04 at 10 16 07" src="https://user-images.githubusercontent.com/64029300/89276548-b1a4bf00-d63b-11ea-9598-3fc33a8fb971.png">
+
 
   <h3 align="left">GIFs</h3>
   
@@ -114,9 +112,9 @@ The information contained within this project is provided for educational and in
 
 <!-- MARKDOWN LINKS -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/kelseru/dicegame-single.svg?style=flat-square
-[contributors-url]: https://github.com/kelseru/dicegame-single/graphs/contributors
-[stars-shield]: https://img.shields.io/github/stars/kelseru/dicegame-single.svg?style=flat-square
-[stars-url]: https://github.com/kelseru/dicegame-single/stargazers
+[contributors-shield]: https://img.shields.io/github/contributors/kelseru/dicegame-multiplayer.svg?style=flat-square
+[contributors-url]: https://github.com/kelseru/dicegame-multiplayer/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/kelseru/dicegame-multiplayer.svg?style=flat-square
+[stars-url]: https://github.com/kelseru/dicegame-multiplayer/stargazers
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/bex-birkett
