@@ -1,0 +1,149 @@
+.flexcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 99vh;
+  width: 99vw;
+  font-family: 'Merriweather';
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  width: fit-content;
+  position: fixed;
+  border-radius: 6px;
+}
+
+#header{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60vw;
+  font-size: 12px;
+  text-indent: 5px;
+}
+
+#logo {
+  height: 35px;
+  width: 30px;
+  background-color: white;
+}
+  
+#gameArea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 4;
+  background-image: url(img/wallpaper.png);
+  background-size: cover;
+  border-radius: 6px;
+  width: 55vw;
+}
+
+#rollResult {
+  width: 240px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}  
+
+.dice {
+  display: flex; 
+  justify-content: space-between;
+  width: 600px;
+  color: slategrey;
+  font-size: 100px;
+}
+
+.waiting {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 480px;
+  padding-top: 10px;
+}
+
+#icon1, #icon2 { 
+  height: 100px;
+  width: 100px;
+  padding-top: 5px;
+  animation: jello-vertical 1.8s infinite both;
+}
+
+@keyframes jello-vertical {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  40% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  50% {
+    transform: scale3d(0.85, 1.15, 1);
+  }
+  65% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  75% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+#buttonStart, #buttonHold {
+  background-color: rgb(177, 226, 229);
+  color: slategrey;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 200px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.players {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 760px;
+}
+
+#scoreP1, #scoreP2 {
+  background-color: rgb(177, 226, 229);
+  border-radius: 6px;
+  color: slategrey;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+#footer {
+  flex: 1;
+  font-size: 9px;
+  width: 600px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a {
+  color: slategrey;
+  text-decoration: none;
+}
